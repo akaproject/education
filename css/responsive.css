@@ -1,0 +1,31 @@
+/* 1024px以上の幅の場合に適応される */
+
+
+
+/* 576pxまでの幅の場合に適応される */
+@media screen and (max-width: 576px) {
+
+  /* 幅調整 */
+  .page {
+    width: auto;
+  }
+
+  /* -------------------------------------------------
+共通ヘッダー
+---------------------------------------------------- */
+  #about header .header-right ul,
+  #adomission header .header-right ul {
+    width: auto;
+    display: none;
+  }
+
+  #about header .header-right li a,
+  #adomission header .header-right li a {
+    display: none;
+  }
+
+
+  header .header-nav ul {
+    width: auto;
+  }
+}
